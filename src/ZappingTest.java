@@ -38,6 +38,7 @@ class ZappingTest {
         //assert
         assertEquals(2,control);
         System.out.println("Test Correcto");
+
     }
 
     @Test
