@@ -27,13 +27,17 @@ class ZappingTest {
         //action
         int control = Zapping.Canales(10,30);
         //assert
+        assertEquals(20,control);
+        System.out.println("Test Correcto");
     }
 
     @Test
     void ZappingTest4(){
         //action
-        int control = Zapping.Canales(,);
+        int control = Zapping.Canales(2,99);
         //assert
+        assertEquals(2,control);
+        System.out.println("Test Correcto");
     }
 
     @Test
