@@ -16,6 +16,7 @@ class ZappingTest {
     @Test
     void ZappingTest2(){
         //action
+        int control = Zapping.Canales(0,0);
 
         //assert
     }
