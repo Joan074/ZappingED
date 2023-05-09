@@ -52,8 +52,10 @@ class ZappingTest {
     @Test
     void ZappingTest6(){
         //action
-        int control = Zapping.Canales(1,2);
+        int control = Zapping.Canales(63,5);
         //assert
+        assertEquals(41,control);
+        System.out.println("Test Correcto");
     }
 
     @Test
