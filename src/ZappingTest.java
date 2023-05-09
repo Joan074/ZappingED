@@ -1,8 +1,8 @@
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 class ZappingTest {
+
 
     @Test
     void ZappingTest1(){
@@ -43,8 +43,10 @@ class ZappingTest {
     @Test
     void ZappingTest5(){
         //action
-        int control = Zapping.Canales(,);
+        int control = Zapping.Canales(5,63);
         //assert
+        assertEquals(41,control);
+        System.out.println("Test Correcto");
     }
 
     @Test
