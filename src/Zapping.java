@@ -4,5 +4,6 @@ public class Zapping {
         int toques = 0;
         toques = Math.abs(destino - origen);
         return Math.min(toques , (99 - toques));
+
     }
 }
